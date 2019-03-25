@@ -1,3 +1,6 @@
+import tensorflow as tf
+import numpy as np
+
 def _cumsum(x, axis=None):
     return np.cumsum(x, axis=axis)
 
